@@ -10,4 +10,5 @@ for path, subdirs, Files in os.walk("code"):
 
 # running test files
 for file in files:
+    print("Testing : {}".format(file))
     os.system("python {}".format(file))
