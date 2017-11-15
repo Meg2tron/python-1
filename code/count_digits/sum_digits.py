@@ -1,6 +1,6 @@
 from __future__ import division
 
-def sum_digits(number):
+def count_digits(number):
     # preventing infinite loop
     if number < 1: return 0
 
