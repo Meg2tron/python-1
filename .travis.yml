@@ -7,4 +7,10 @@ python:
 install: pip install -r requirements.txt
 
 script:
-  - bash builder.sh
+  - python code/hello_world/test.py
+  - python code/armstrong_number/test.py
+  - python code/lapindrome_checker/test.py
+  - python code/palindrome_checker/test.py
+  - python code/russian_peasant_multiplication/test.py
+  - python code/arithmetic_operators/test.py
+  - python code/count_digits/test.py
