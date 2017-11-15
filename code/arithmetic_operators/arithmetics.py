@@ -1,6 +1,7 @@
 # note python doesn't support increament (++) and decrement (--) operators
 
-  
+from __future__ import division # interger division was not there in python 2.7
+
 def addition(number1, number2):
     return number1 + number2
 
