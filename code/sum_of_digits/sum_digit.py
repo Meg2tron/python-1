@@ -1,9 +1,9 @@
 from __future__ import division
 
-def count_digits(number):
+def sum_digits(number):
     # preventing infinite loop
     if number < 1: return 0
-    
+
     count = 0
     while number!=0:
         count += 1
