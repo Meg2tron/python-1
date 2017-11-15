@@ -7,7 +7,7 @@ class Count_Cigits(unittest.TestCase):
         pass
 
     def testing_case2(self):
-        self.assertEqual(count_digits.count_digits(0), 0)
+        self.assertEqual(count_digits.count_digits(0), 1)
         pass
 
     def testing_case3(self):
