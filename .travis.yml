@@ -13,4 +13,4 @@ script:
   - python code/palindrome_checker/test.py
   - python code/russian_peasant_multiplication/test.py
   - python code/arithmetic_operators/test.py
-  - python code/count-digits/test.py
+  - python code/count_digits/test.py
