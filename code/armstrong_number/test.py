@@ -8,7 +8,7 @@ class Armstrong_Number(unittest.TestCase):
         pass
 
     def testing_non_armstrong(self):
-        self.assertEqual(armstrong_number.is_armstrong(10), True)
+        self.assertEqual(armstrong_number.is_armstrong(10), False)
         pass
 
     pass
