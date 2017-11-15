@@ -37,3 +37,9 @@ class Testing_Program(unittest.TestCase):
 ```python
 unittest.main()
 ```
+5. Add the complete path of your code in `.travis.yml` file
+For example i want to add test file for _hello_world_
+```yaml
+script:
+  - python code/hello_world/test.py
+```
